@@ -13,7 +13,7 @@ hour_df = pd.read_csv('Dataset/hour.csv')
 # Membuat sidebar dan tittle dashboar
 # Menambahkan logo perusahaan
 with st.sidebar:
-    st.image('https://github.com/ridhonatiqoh/DataAnalyst_Bike-Sharing/blob/main/bikeshare.png')
+    st.image('bikeshare.png')
     st.write("**TRUSTED BIKE SHARE COMPANY**")
     st.sidebar.title("Navigasi Web")
     page = st.sidebar.selectbox("Pilih halaman yang ingin ditampilkan", ["Halaman Utama","Halaman Analisis Data"])
