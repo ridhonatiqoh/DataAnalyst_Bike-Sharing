@@ -21,7 +21,7 @@ with st.sidebar:
 #Jika user memilih pilihan halaman utama
 if page == "Halaman Utama":
     st.header("Welcome to Bike Share Company Dashboard")
-    image1= Image.open('C:/Users/A S U S/Desktop/SEMESTER V - ASSIGN/MACHINE LEARNING/SUBMISSION DICODING/bikeshare.png')
+    image1= Image.open('main/bikeshare.png')
     st.image(image1, caption="Bike Share Company")
     st.subheader("Tentang Perusahaan")
     st.write("""
