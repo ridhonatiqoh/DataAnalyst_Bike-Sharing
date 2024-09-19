@@ -7,8 +7,8 @@ from babel.numbers import format_currency
 from PIL import Image
 
 # Generate load dataset
-day_df = pd.read_csv('https://github.com/ridhonatiqoh/DataAnalyst_Bike-Sharing/blob/main/Dataset/day.csv')
-hour_df = pd.read_csv('https://github.com/ridhonatiqoh/DataAnalyst_Bike-Sharing/blob/main/Dataset/hour.csv')
+day_df = pd.read_csv('Dataset/day.csv')
+hour_df = pd.read_csv('Dataset/hour.csv')
 
 # Membuat sidebar dan tittle dashboar
 # Menambahkan logo perusahaan
